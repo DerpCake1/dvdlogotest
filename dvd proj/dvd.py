@@ -55,13 +55,6 @@ while True:
     box.sety(box.ycor() + box.dy)
     t = random.choice(colors)
 
-    #if collision(box, testbox):
-        #print(testbox.pos())
-        #print("hit", box.distance(testbox))
-        #box.setx(box.xcor())
-        #box.sety(box.ycor())
-        #box.dx *= -1
-        #box.dy *= -1
 
     if box.ycor() > 280:
         box.sety(280)
